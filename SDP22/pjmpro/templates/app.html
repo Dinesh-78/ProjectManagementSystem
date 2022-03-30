@@ -1,0 +1,32 @@
+  {% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href='{% static "app.css" %}' >
+
+</head>
+<body>
+<h1>Project Management System</h1>
+<ul class="ul">
+  <li class="li"><a href="/home">Home</a></li>
+  <li class="li"><a href="/about">About</a></li>
+  <li class="li"><a href="/contact">Contact</a></li>
+  <li class="li" style="float:right"><a class="active" href="/register">Register</a></li>
+  <li class="li" style="float:right"><a class="active" href="/login">Login</a></li>
+</ul>
+
+<div class="card">
+
+  <div class="container">
+    <h4 class="head"><b>Today tasks</b></h4>
+    <p>1.Finding a project</p><br>
+      <p>2. Deploy a project</p><br>
+      <p>3. Submit before due date</p><br>
+  </div>
+</div>
+</body>
+</html>
+
+
